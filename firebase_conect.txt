@@ -1,0 +1,26 @@
+Copie e cole esses scripts ina parte inferior da tag <body>, mas antes de usar qualquer serviço do Firebase:
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAxY6PTNcsYmGr6y8ZL_3VR-Aj6GMXMh7Y",
+    authDomain: "horadapelada.firebaseapp.com",
+    databaseURL: "https://horadapelada.firebaseio.com",
+    projectId: "horadapelada",
+    storageBucket: "horadapelada.appspot.com",
+    messagingSenderId: "1051619255972",
+    appId: "1:1051619255972:web:0647bfc3beb122351f2831",
+    measurementId: "G-RD5LMN8M29"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
